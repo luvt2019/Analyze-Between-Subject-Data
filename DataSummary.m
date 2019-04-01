@@ -1,4 +1,4 @@
-function [CI] = matrixSummary(dataMat,format,header,adjust)
+function [CI] = DataSummary(dataMat,format,header,adjust)
 % dataMat: The matrix of data that we've collected from participants. It has
 %          size nrow x ncolumns (matrices tend to be organized with
 %          subjects as the rows and conditions/task as the columns)
